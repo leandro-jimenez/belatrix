@@ -75,7 +75,7 @@ public class ShakeDetector implements SensorEventListener {
         }
     }
 }
-}
+
 
 Luego se creará la propiedad del tipo del ShakeDetector y se instancia con las propiedades necesarias y el metodo del listener 
 que se usará, el actual proyecto tiene un codigo que muestra la acción creada. Se le agregó una vibración
