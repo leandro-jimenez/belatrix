@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.CompassFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+    android:id="@+id/ly_compassview"
+    style="@style/CompassContainer">
+        <!--androidx.appcompat.widget.AppCompatImageView
+            style="@style/MatchLayout"
+            android:id="@+id/iv_compass"/-->
+        <edu.arbelkilani.compass.Compass
+            style="@style/MatchLayout"
+            android:id="@+id/compass_view"
+            app:degree_color="@color/blue"
+            app:degrees_step="5"
+            app:needle="@drawable/compass"
+            app:orientation_labels_color="@color/red"
+            app:show_degree_value="false"
+            app:show_orientation_labels="true"
+            app:show_border="false"
+            app:degree_value_color="@color/colorAccent"
+            app:border_color="@color/red">
+
+        </edu.arbelkilani.compass.Compass>
+    </LinearLayout>
+</FrameLayout>

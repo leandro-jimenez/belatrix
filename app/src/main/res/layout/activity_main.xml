@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MatchLayout"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs"
+        style="@style/mainPager"/>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_main_pager"
+        style="@style/MatchLayout"
+        />
+        <!--com.google.android.material.tabs.TabItem
+            android:icon="@drawable/ic_compass"
+            style="@style/tabItem"/>
+        <com.google.android.material.tabs.TabItem
+            android:icon="@drawable/ic_shake"
+            style="@style/tabItem"/-->
+
+
+</LinearLayout>

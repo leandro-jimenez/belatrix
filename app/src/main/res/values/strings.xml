@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BellatrixSample</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="page_item_shaker">Shaker</string>
+    <string name="page_item_compass">Compass</string>
+    <string name="shooks_count_name">Numero de sacudidas: %d</string>
+</resources>
