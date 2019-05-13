@@ -16,7 +16,7 @@ Para el control personalizado se cargarán diferentes recursos para ilustrar los
 
 Primero se debe crear un shake detector que se creará como propiedad del sitio donde se vaya a cargar:
 
-
+{
 public class ShakeDetector implements SensorEventListener {
     private static final float SHAKE_THRESHOLD_GRAVITY = 2.7F;
     private static final int SHAKE_SLOP_TIME_MS = 500;
@@ -74,6 +74,7 @@ public class ShakeDetector implements SensorEventListener {
             }
         }
     }
+}
 }
 
 Luego se creará la propiedad del tipo del ShakeDetector y se instancia con las propiedades necesarias y el metodo del listener 
